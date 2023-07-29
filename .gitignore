@@ -1,5 +1,15 @@
-# Created by https://www.toptal.com/developers/gitignore/api/nextjs,visualstudiocode,git,react,java
-# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,visualstudiocode,git,react,java
+# Created by https://www.toptal.com/developers/gitignore/api/nextjs,react,visualstudiocode,java,database,git
+# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,react,visualstudiocode,java,database,git
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+*.db-shm
+*.db-wal
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -112,4 +122,4 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/nextjs,visualstudiocode,git,react,java
+# End of https://www.toptal.com/developers/gitignore/api/nextjs,react,visualstudiocode,java,database,git
