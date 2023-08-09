@@ -2,6 +2,7 @@
 import Button from "@/components/Button";
 import Container from "@/components/Container";
 import Heading from "@/components/Heading";
+import ImageUpload from "@/components/ImageUpload";
 import Input from "@/components/Input";
 import React, { useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
@@ -43,6 +44,8 @@ const ProductUploadPage = () => {
             title="Product Upload"
             subtitle="upload your product"
           />
+            <ImageUpload />
+
           <Input
             id="title"
             label="Title"
