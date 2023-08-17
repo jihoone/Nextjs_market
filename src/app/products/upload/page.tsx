@@ -29,8 +29,14 @@ const ProductUploadPage = () => {
     },
   });
 
+  const imageSrc = watch('imageSrc');
+
   const onSubmit: SubmitHandler<FieldValues> = (data) => {
 
+  }
+
+  const setCustomValue = (id: string, value: any) => {
+    setValue(id, value);
   }
 
   return (
@@ -44,7 +50,10 @@ const ProductUploadPage = () => {
             title="Product Upload"
             subtitle="upload your product"
           />
-            <ImageUpload />
+            <ImageUpload
+              onChange={(value) => setCustomValue('imageSrc', value)}
+              value={imageSrc}
+            />
 
           <Input
             id="title"
